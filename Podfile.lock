@@ -1,0 +1,58 @@
+PODS:
+  - AFNetworking (2.2.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.2.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.2.4):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.2.4)
+  - AFNetworking/Security (2.2.4)
+  - AFNetworking/Serialization (2.2.4)
+  - AFNetworking/UIKit (2.2.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Appsee (2.0.8)
+  - Bolts (1.1.0)
+  - Facebook-iOS-SDK (3.15.0):
+    - Bolts
+  - Heap (1.1.4)
+  - MBProgressHUD (0.8)
+  - Mixpanel (2.3.4)
+  - PaymentKit (1.0.5)
+  - Reachability (3.1.1)
+  - Stripe (1.1.4):
+    - PaymentKit (~> 1.0.4)
+  - Taplytics (1.2.50)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Appsee
+  - Facebook-iOS-SDK (~> 3.15)
+  - Heap
+  - MBProgressHUD
+  - Mixpanel
+  - Reachability
+  - Stripe
+  - Taplytics
+
+SPEC CHECKSUMS:
+  AFNetworking: ab63e259fe91eef4519b371ef0a4955af0e73e64
+  Appsee: 80082e036888fbc7c81ddd2a14ce190553eee2f4
+  Bolts: 91c2af8eae1d44e1dd75946a5b0ae04a43ea43e4
+  Facebook-iOS-SDK: d67a9aa373f28b581e00cefdfd5a1ab8f883ac14
+  Heap: a9c23c08259be95de91ae2deaed7f3fdd2d01079
+  MBProgressHUD: c356980b0cd097f19acec959b49dca5eb8ec31be
+  Mixpanel: f80261f894ae0a71231da2a7eed67ce9ba1d5a26
+  PaymentKit: 14b54835f57ae9e2bf5628140fcd67001740cba2
+  Reachability: 8e9635e3cb4f98e7f825e51147f677ecc694d0e7
+  Stripe: a0ed1c0675a3c36f6e8d575820cfec1dc9335f53
+  Taplytics: 292c7c0a7814914f6a1a3e34fdf96b7233c2425d
+
+COCOAPODS: 0.33.1

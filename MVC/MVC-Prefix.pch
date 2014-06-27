@@ -1,0 +1,25 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+// KEYS: API, STRIPE, MIXPANEL, APPSEE
+#define API_URL @"Your api url"
+#define STRIPE_PUBLISHABLE_KEY @"your stripe Key"
+#define MIXPANEL_TOKEN @"Your Mixpanel token"
+#define APPSEE_KEY @"your Apsee key"
+#define TAPLYTICS_KEY @"your taplytics key"
+#define HEAP_KEY @"your heap key"
+
